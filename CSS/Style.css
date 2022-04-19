@@ -1,0 +1,105 @@
+﻿ 
+
+.imgcontainer {
+    width: auto;
+    text-align: left;
+    padding: 15px;
+     
+}
+
+img {
+    max-width: 20%;
+    max-height: auto;
+    border: 4px solid black;
+    
+    
+}
+
+
+grid p {
+    float: left;
+    width: 30%;
+    padding-right: 15px;
+    line-height: 150px;
+}
+    /* Bottom right text */
+    .text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+nav {
+    
+    background-color: black;
+    line-height: 6rem;
+    font-size: 1.7rem;
+}
+section{
+    font-size: 2.3rem;
+}
+
+.typed-out {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid blue;
+    width: 0;
+    animation: typing 10s steps(60, end) forwards, blink .8s infinite;
+    
+}
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+@keyframes blink {
+    from {
+        border-color: transparent
+    }
+
+    to {
+        border-color: blue;
+    }
+}
+.container {
+    display: inline-block;
+}
+.center {
+
+    display: block;
+    margin-left: 400px;
+    margin-right: auto;
+    text-align:center;
+    
+}
+.meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.input-group{
+    flex: 0 1 500px;
+}
+
